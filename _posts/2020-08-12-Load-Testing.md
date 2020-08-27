@@ -34,7 +34,7 @@ I wrote script for evaluation setting, then ran it on K6 CLI. The setting of the
 
 It mainly tests the services for customers. The target number of customers is 200. The whole process is about 30 minutes, and a bunch of requests is sent every 3 seconds. It takes 9 mins to reach the normal load, 7 mins to approach the breaking point, 7 mins to exceed the breaking point.
 
-![setting2](https://raw.githubusercontent.com/grass-mudhorse/Order-Delivery-System-Azure-Cloud-Final-Version/master/Load%20testing%20Script/Smoke%20testing%20and%20stress%20testing%20results/stress_test_setting.PNG)
+![setting2](https://raw.githubusercontent.com/grass-mudhorse/Order-Delivery-System-Azure-Cloud-Final-Version/master/Load%20testing%20Script/Smoke%20testing%20and%20stress%20testing%20results/stress_test_setting2.PNG)
 
 The number of instance for each microservice is shown above. Because I mainly focus on the customer role, I increased the number of fundamental services, such as menu. order, account, recommendation, user services. Also, I grow the number of some microservices work as interfaces, such as gateway and clientfeign.
 
