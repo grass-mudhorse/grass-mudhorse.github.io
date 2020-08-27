@@ -20,7 +20,7 @@ First, the system should have high availability because some restaurants may pro
 
 #### Microservice
 
-Microservice architecture – a variant of the service-oriented architecture (SOA) structural style – arranges an application as a collection of loosely coupled services. In a microservices architecture, services are fine-grained and the protocols are lightweight.[Wikipeda](https://en.wikipedia.org/wiki/Microservices)
+Microservice architecture – a variant of the service-oriented architecture (SOA) structural style – arranges an application as a collection of loosely coupled services. In a microservices architecture, services are fine-grained and the protocols are lightweight.[(Wikipeda)](https://en.wikipedia.org/wiki/Microservices)
 
 Microservice-based distributed system can significantly increase the availability of the back-end. For example, if a customer wants to check menu and make an order by the system. The request from front-end will first approach the gateway. Then, gateway will invoke client feign, which is also a microservice, then the client feign will call menu and order services to get and save data. The two services can run independently, so that can improve the availability.
 
@@ -31,16 +31,16 @@ increase the instances for all microservices, it will automatically distribute t
 
 #### Azure Redis Cache
 
-Azure Redis Cache is fully managed, open source–compatible in-memory data store to power fast, scalable applications. [Azure Redis Cache](https://azure.microsoft.com/en-us/services/cache/)
+Azure Redis Cache is fully managed, open source–compatible in-memory data store to power fast, scalable applications. [(Azure Redis Cache)](https://azure.microsoft.com/en-us/services/cache/)
 
 ### Scalability
 
 With Azure Portal, I can scale up and scale out all microservices manually and automatically, such as increasing the number of instance, CPU cores, memory for each microservice. More details are shown below in the two pictures.
 
-![](https://github.com/grass-mudhorse/grass-mudhorse.github.io/blob/master/img/scalable1.png)
+![alt text](https://raw.githubusercontent.com/grass-mudhorse/grass-mudhorse.github.io/master/img/scalable1.png)
 
 
-![](https://github.com/grass-mudhorse/grass-mudhorse.github.io/blob/master/img/scalable2.png)
+![alt text](https://raw.githubusercontent.com/grass-mudhorse/grass-mudhorse.github.io/master/img/scalable2.png)
 
 The Auto Scale function will help to adapt the availability of the system. It would save expense for the Azure Server.
 

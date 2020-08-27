@@ -29,8 +29,6 @@ First, it should have high availability because some restaurants may provide spe
 
 Domain-driven design (DDD) is the concept that the structure and language of software code (class names, class methods, class variables) should match the business domain. For example, if a software processes loan applications, it might have classes such as LoanApplication and Customer, and methods such as AcceptOffer and Withdraw.[Wikipeda](https://en.wikipedia.org/wiki/Domain-driven_design)
 
-![](https://ws4.sinaimg.cn/large/006tKfTcgy1fhg20ydk8uj30go0brwh1.jpg)
-
 ## Layers
 A basic DDD system should have four layers.
 
@@ -39,7 +37,7 @@ A basic DDD system should have four layers.
 3. **Domain Layer**: Includes business objects and the core (domain) business rules. This is the heart of the application.
 4. **Infrastructure Layer**: Provides generic technical capabilities that support higher layers mostly using 3rd-party libraries.
 
-![](https://github.com/grass-mudhorse/grass-mudhorse.github.io/blob/master/img/structure.png)
+![alt text](https://raw.githubusercontent.com/grass-mudhorse/grass-mudhorse.github.io/master/img/structure.png)
 
 In the access layer, there are a gateway and web pages, which handle access from users. In application layer, there are three Feign Client based on three types of users. It makes build web service clients easier. In domain layers, there are six data-driven microservices, they handle the requests from application layer and
 interact with database. In infrastructure layer, there are some database mapping tool to connect domain layer and MySql database.
