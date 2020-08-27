@@ -37,9 +37,10 @@ Azure Redis Cache is fully managed, open source–compatible in-memory data stor
 
 With Azure Portal, I can scale up and scale out all microservices manually and automatically, such as increasing the number of instance, CPU cores, memory for each microservice. More details are shown below in the two pictures.
 
-![](https://ws4.sinaimg.cn/large/006tKfTcgy1fhg20ydk8uj30go0brwh1.jpg)
+![](https://github.com/grass-mudhorse/grass-mudhorse.github.io/blob/master/img/scalable1.png)
 
-![](https://ws4.sinaimg.cn/large/006tKfTcgy1fhg20ydk8uj30go0brwh1.jpg)
+
+![](https://github.com/grass-mudhorse/grass-mudhorse.github.io/blob/master/img/scalable2.png)
 
 The Auto Scale function will help to adapt the availability of the system. It would save expense for the Azure Server.
 
