@@ -45,4 +45,3 @@ interact with database. In infrastructure layer, there are some database mapping
 ## Technical Challenges
 
 As the targets shown above, we face some difficult challenges to build a high availability and scalability system. Also, the recommender service integrated in the project is another critical challenge to attract more regular customers. More details will be discussed in another post later.
-
