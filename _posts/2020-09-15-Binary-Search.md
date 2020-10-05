@@ -9,6 +9,7 @@ catalog: true
 tags:
     - Leetcode
     - Binary search
+    - Array
 ---
 
 
@@ -47,3 +48,6 @@ public static int bs1(int[] nums, int t) {
         return r;
     }
 ```
+*Time complexity:* O(log2^n): if the length of an array is n, the number of searching is X, so 2^X = n, then X = log2^n
+
+*Space complexity:* O(1)
