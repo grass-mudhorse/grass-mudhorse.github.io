@@ -33,7 +33,7 @@ public static int bs1(int[] nums, int t) {
     }
 ```
 
-### Find the first index of number greater than the target one.
+### Find the first index of number smaller than the target.
 
 ```java
 public static int bs1(int[] nums, int t) {
